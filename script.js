@@ -1,9 +1,17 @@
+  // navbar
+  
   const menuBtn = document.getElementById('menu-btn');
   const menu = document.getElementById('menu');
 
   menuBtn.addEventListener('click', () => {
     menu.classList.toggle('hidden');
   });
+
+  //--------------------------------------------------
+
+
+
+// hero-slider
 
  const slides = document.querySelectorAll('.slide');
   let currentIndex = 0;
@@ -40,3 +48,5 @@
   }
 
   showSlide(currentIndex);
+
+// --------------------------------------------------
