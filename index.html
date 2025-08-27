@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope - Rehabilitation and De-addiction Center</title>
+
+    <!-- Linking Tailwind -->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+
+<!-- ================= Navbar Section ================= -->
+<nav class="bg-white shadow-md fixed w-full z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16">
+
+    <!-- Logo + Brand Name -->
+<div class="flex items-center space-x-3">
+  <img src="images/logo.png" alt="Logo" class="h-12 w-auto md:h-14"> 
+  <span class="text-sm md:text-base lg:text-lg font-semibold text-gray-800 leading-snug">
+    Hope - Rehabilitation & <br> De-addiction Center
+  </span>
+</div>
+
+
+
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex space-x-6 items-center relative">
+        <a href="index.html" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-blue-600 font-medium">About Us</a>
+        
+        <!-- Dropdown for Treatment -->
+<div class="group relative">
+  <button class="text-gray-700 hover:text-blue-600 font-medium flex items-center">
+    <span>Treatment & Programmes</span>
+    <svg class="w-4 h-4 ml-1 mt-1 self-center" fill="none" stroke="currentColor" stroke-width="2"
+      viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+  </button>
+  <!-- Dropdown Items -->
+  <div class="absolute left-0 hidden group-hover:block bg-white shadow-lg rounded-lg w-56">
+    <ul class="py-2">
+      <li><a href="yoga.html" class="block px-4 py-2 hover:bg-gray-100 text-gray-700">Yoga & Meditation</a></li>
+      <li><a href="counseling.html" class="block px-4 py-2 hover:bg-gray-100 text-gray-700">Counseling Classes</a></li>
+      <li><a href="psychology.html" class="block px-4 py-2 hover:bg-gray-100 text-gray-700">Psychology Classes</a></li>
+      <li><a href="games.html" class="block px-4 py-2 hover:bg-gray-100 text-gray-700">Indoor & Outdoor Games</a></li>
+      <li><a href="alcohol.html" class="block px-4 py-2 hover:bg-gray-100 text-gray-700">Alcohol De-Addiction</a></li>
+      <li><a href="drugs.html" class="block px-4 py-2 hover:bg-gray-100 text-gray-700">Drug De-Addiction</a></li>
+    </ul>
+  </div>
+</div>
+
+
+        <a href="facilities.html" class="text-gray-700 hover:text-blue-600 font-medium">Facilities</a>
+        <a href="gallery.html" class="text-gray-700 hover:text-blue-600 font-medium">Gallery</a>
+        <a href="contact.html" class="text-gray-700 hover:text-blue-600 font-medium">Contact Us</a>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <div class="md:hidden flex items-center">
+        <button id="menu-btn" class="text-gray-700 focus:outline-none">
+          <!-- Hamburger Icon -->
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="menu" class="hidden md:hidden bg-white shadow-md">
+    <a href="index.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Home</a>
+    <a href="about.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">About Us</a>
+    <!-- Mobile Dropdown -->
+    <details class="px-4 py-2">
+      <summary class="cursor-pointer text-gray-700 hover:text-blue-600 font-medium">Treatment & Programmes</summary>
+      <ul class="pl-4 mt-2 space-y-1 text-gray-700">
+        <li><a href="yoga.html" class="hover:text-blue-600">Yoga & Meditation</a></li>
+        <li><a href="counseling.html" class="hover:text-blue-600">Counseling Classes</a></li>
+        <li><a href="psychology.html" class="hover:text-blue-600">Psychology Classes</a></li>
+        <li><a href="games.html" class="hover:text-blue-600">Indoor & Outdoor Games</a></li>
+        <li><a href="alcohol.html" class="hover:text-blue-600">Alcohol De-Addiction</a></li>
+        <li><a href="drugs.html" class="hover:text-blue-600">Drug De-Addiction</a></li>
+      </ul>
+    </details>
+    <a href="facilities.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Facilities</a>
+    <a href="gallery.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Gallery</a>
+    <a href="contact.html" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contact Us</a>
+  </div>
+</nav>
+
+
+<!-- ================= Navbar Section End ================= -->
+
+
+
+
+
+
+
+    
+
+
+<!-- Linking JS-->
+<script src="script.js"></script>
+
+</body>
+</html>
