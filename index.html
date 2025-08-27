@@ -99,6 +99,39 @@
 <!-- ================= Navbar Section End ================= -->
 
 
+<!-- Hero Section -->
+<section class="relative w-full h-screen overflow-hidden">
+  <!-- Slider Images -->
+  <div class="absolute inset-0">
+    <div class="slider relative w-full h-full">
+      <img src="images/slide1.png" class="slide absolute w-full h-full object-cover object-center opacity-100 transition-opacity duration-1000" />
+      <img src="images/slide2.png" class="slide absolute w-full h-full object-cover object-center opacity-0 transition-opacity duration-1000" />
+      <img src="images/slide3.png" class="slide absolute w-full h-full object-cover object-center opacity-0 transition-opacity duration-1000" />
+      <img src="images/slide4.png" class="slide absolute w-full h-full object-cover object-center opacity-0 transition-opacity duration-1000" />
+    </div>
+  </div>
+
+  <!-- Overlay for dark effect -->
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <!-- Hero Text -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Hope Rehabilitation Center</h1>
+    <p class="text-lg md:text-2xl mb-6">Together towards a healthier, addiction-free future</p>
+    <a href="contact.html" class="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition">Contact Us</a>
+  </div>
+
+  <!-- Controls -->
+  <button id="prev" class="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-black/40 hover:bg-black/70 text-white p-3 rounded-full">
+    &#10094;
+  </button>
+  <button id="next" class="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-black/40 hover:bg-black/70 text-white p-3 rounded-full">
+    &#10095;
+  </button>
+</section>
+
+
+
 
 
 
